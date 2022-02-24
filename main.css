@@ -1,0 +1,113 @@
+:root {
+    --red: #ec3037;
+    --green: #3c9612;
+    --aqua: #35eee8;
+}
+
+nav{
+    float: left;
+}
+
+#mine {
+    margin: -1%;
+}
+.svg {
+    width: 20%;
+    float: right;
+    margin-right: 2%;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: 1;
+    color: var(--green);
+    font-size: 3rem;
+    margin-bottom: 3.2rem;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    color: var(--red);
+    font-size: 1.8rem;
+    margin-bottom: 1.7rem;
+}
+
+h3, h4 {
+    font-family: 'Poppins', sans-serif;
+} 
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(240, 248, 225);
+    line-height: 1.5rem;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 70rem;
+    /* border: solid; */
+}
+
+figure {
+    margin: 0 auto;
+    max-width: 37.5rem;
+}
+
+a:link {
+    color: var(--aqua);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+a:visited {
+    color: var(--aqua);
+}
+a:hover {
+    color: var(--green);
+    font-weight: bolder;
+}
+a:active {
+    color: var(--red);
+}
+nav ul {
+    color: var(--aqua);
+}
+
+a.button{
+    font-weight: bolder;
+}
+.button {
+    align-items: center;
+    justify-content: space-between;
+    display: inline-block;
+    margin: 2rem 2rem;
+    border: 0.2rem solid var(--aqua);
+    font-size: 0.9rem;
+    padding: 1.1rem 4rem;
+    text-transform: uppercase;
+    transition: background-color 0.6s ease-out, color 0.6s ease-out, letter-spacing 0.6s ease-out, padding 0.6s ease-out;
+}
+.button:hover {
+    background: var(--aqua);
+    color: #222;
+    letter-spacing: 0.7rem;
+    padding: 1.1rem 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.6s ease-in, color 0.6s ease-in, letter-spacing 0.6s ease-in, padding 0.6s ease-in;
+}
+
+figcaption {
+    float: right;
+    position: relative;
+    font-style: italic;
+    margin-top: -2.2rem;
+    margin-right: 1rem;
+    color: #fff;
+}
+
+foot p {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
